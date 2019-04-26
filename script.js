@@ -10,7 +10,7 @@ var sqrtArr = posArr.map(function(value){
 console.log(sqrtArr);
 
 //2) Задание
-var arr2 = [0, 3, 5, 5, 1, 4, 0, 6];
+var arr2 = [0, 3, 5, 5, 1, 4, 1, 6];
 var result = 0; // сумма чисел
 var isChange=false; // проверка на случай если в массиве больше одного ноля
 arr2.reduce(function(sum, current){
